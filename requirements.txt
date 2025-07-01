@@ -1,0 +1,20 @@
+torch
+transformers
+torchvision
+pillow
+datasets
+accelerate
+qwen_vl_utils
+
+wandb
+
+numpy
+matplotlib
+scikit-learn
+
+
+## Qwen stuff (model access)
+# qwen-vl
+huggingface_hub
+hf_xet
+# or huggingface_hub for model access
