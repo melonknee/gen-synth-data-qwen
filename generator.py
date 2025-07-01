@@ -1,13 +1,6 @@
 # Fixed Qwen 2B Instruct Image Captioning for Flickr30K Dataset
 # This version properly handles image inputs to generate unique captions
 
-# Step 1: Install required packages
-"""
-Run these commands first:
-pip install transformers torch torchvision pillow datasets accelerate
-pip install qwen-vl-utils  # For proper image processing
-"""
-
 import torch
 from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 from qwen_vl_utils import process_vision_info  # This is crucial for image processing
@@ -17,7 +10,7 @@ import json
 from tqdm import tqdm
 import requests
 
-# Step 2: Setup and load the Qwen-VL model (CORRECTED VERSION)
+# Step 1: Setup and load the Qwen-VL model
 print("Loading Qwen2-VL-2B-Instruct model...")
 
 model_name = "Qwen/Qwen2-VL-2B-Instruct"
