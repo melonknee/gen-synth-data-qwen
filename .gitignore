@@ -1,1 +1,14 @@
 /data
+*.json
+*.txt
+*.csv
+*.tsv
+*.jsonl
+*.jsonl.gz
+*.jsonl.bz2
+*.jsonl.zip
+*.jsonl.tar
+*.jsonl.tar.gz
+*.jsonl.tar.bz2
+
+.env

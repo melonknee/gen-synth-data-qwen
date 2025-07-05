@@ -1,5 +1,5 @@
 torch
-transformers
+transformers>=4.39.0
 torchvision
 pillow
 datasets
@@ -14,7 +14,11 @@ scikit-learn
 
 
 ## Qwen stuff (model access)
-# qwen-vl
+# qwen-vl or huggingface_hub
 huggingface_hub
 hf_xet
-# or huggingface_hub for model access
+huggingface_hub[cli]
+
+
+python-dotenv
+datasets
